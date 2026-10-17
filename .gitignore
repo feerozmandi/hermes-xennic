@@ -10,3 +10,6 @@ audio_cache/
 logs/
 hermes-agent/
 backups/
+
+# Hermes backup logs
+logs/hermes-backup.log
