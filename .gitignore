@@ -1,0 +1,12 @@
+﻿.env
+auth.json
+*.lock
+*.db
+*.db-wal
+*.db-shm
+cache/
+image_cache/
+audio_cache/
+logs/
+hermes-agent/
+backups/
