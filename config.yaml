@@ -2031,6 +2031,7 @@ desktop:
   repo_scan_enabled: true
 approvals:
   mcp_reload_confirm: true
+  cron_mode: approve
 known_plugin_toolsets:
   cli:
     - a2a
