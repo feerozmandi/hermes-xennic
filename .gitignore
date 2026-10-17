@@ -1,15 +1,90 @@
-﻿.env
+﻿# ============================================
+# Hermes .gitignore
+# ============================================
+
+# Secrets (NEVER commit)
+.env
 auth.json
 *.lock
 *.db
 *.db-wal
 *.db-shm
+mcp-tokens/
+
+# Cache & Runtime
 cache/
 image_cache/
 audio_cache/
 logs/
-hermes-agent/
-backups/
+runtime/
+state/
+sessions/
+terminal-sessions/
+bootstrap-cache/
+node/
+bin/
+assets/
+pastes/
+pets/
+shared/
 
-# Hermes backup logs
-logs/hermes-backup.log
+# Temporary files
+*.backup-*
+*.bak
+*.tmp
+*.log
+.hermes_history
+.update_check
+.interrupt_debug.log
+interrupt_debug.log
+spawn-ledger.json
+channel_directory.json
+provider_models_cache.json
+models_dev_cache.json
+models_dev_cache.etag
+context_length_cache.yaml
+.curator_backups/
+.curator_ledger.jsonl
+.curator_state
+
+# Gateway files
+gateway-service/
+gateway-starts.log
+gateway.pid
+gateway_state.json
+hermes-setup.exe
+install_id
+
+# Config backups
+config.yaml.backup-*
+
+# Hermes Agent (source code)
+hermes-agent/
+
+# Cron runtime
+cron/output/
+cron/usage_audit.jsonl
+cron/ticker_heartbeat
+cron/ticker_last_success
+cron/executions.db
+cron/.jobs.lock
+cron/.tick.lock
+
+# Skills runtime
+skills/.hub/
+skills/.locks/
+skills/.bundled_manifest
+skills/.curator_ledger.jsonl
+skills/.curator_state
+skills/.usage.json
+skills/.usage.json.lock
+
+# ============================================
+# KEEP (backup these)
+# ============================================
+# skills/
+# memories/
+# config.yaml
+# cron/jobs.json
+# scripts/
+# .gitignore
