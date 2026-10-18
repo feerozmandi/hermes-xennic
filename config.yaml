@@ -293,6 +293,7 @@ browser:
 # opt-in for interactive CLI/TUI/Desktop/ACP sessions, but default on for unattended
 # gateway/cron sessions where nobody is present to interrupt a model that
 # ignores loop warnings.
+  use_real_profile: true
 tool_loop_guardrails:
   warnings_enabled: true
   hard_stop_enabled: false
@@ -1284,7 +1285,7 @@ mcp_servers:
     args: ["n8n-mcp-server"]
     env:
       N8N_API_URL: "http://localhost:5678"
-      N8N_API_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxNDc1NmRlYS00OTA2LTQzODYtYWM4OS03YjVmYjRlYjQzY2IiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwianRpIjoiZjJjY2RkYTYtNzIwOS00NTNiLWI4NmUtNTM2MjMwMTI3YzEwIiwiaWF0IjoxNzkyMDkzODU0LCJleHAiOjE3OTQ2MDE4MDB9.LJBWTHYDFGj6zBlJK2O46vA8wxmkoEx-dwIhX4RcNU4"
+      N8N_API_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxNDc1NmRlYS00OTA2LTQzODYtYWM4OS03YjVmYjRlYjQzY2IiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwianRpIjoiYWY0YTgwMWQtNDAyZS00YTUzLTkzYTUtM2E5NWQwM2RmYzdiIiwiaWF0IjoxNzkyMjY0ODcxLCJleHAiOjE3OTQ3NzQ2MDB9.XdXkp32W-QfNoMuPe10Vx8FNwTRU54ZCguDPQ2KKP6c"
     startup_timeout_sec: 60
     tool_timeout_sec: 120
 #   time:
