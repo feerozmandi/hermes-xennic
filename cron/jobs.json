@@ -23,35 +23,35 @@
       "schedule_display": "0 22 * * *",
       "repeat": {
         "times": null,
-        "completed": 36
+        "completed": 38
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-17T17:09:52.998396+03:30",
-      "next_run_at": "2026-11-23T22:00:00+03:30",
-      "last_run_at": "2026-11-21T22:01:48.856941+03:30",
-      "last_status": "ok",
-      "last_error": null,
+      "next_run_at": "2026-11-25T22:00:00+03:30",
+      "last_run_at": "2026-11-23T22:47:50.324997+03:30",
+      "last_status": "error",
+      "last_error": "RuntimeError: Hermes can't reach the model provider. You may be offline. Check your internet connection and try again.",
       "last_delivery_error": null,
       "last_delivery_unverified": null,
-      "failure_streak": 0,
+      "failure_streak": 1,
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
       "workdir": null,
       "fire_claim": {
-        "at": "2026-11-22T22:06:08.540119+03:30",
-        "by": "DESKTOP-AV239MT:2500:4d0db2b3907d44fab0da1924c6a3f967"
+        "at": "2026-11-24T22:36:14.931617+03:30",
+        "by": "DESKTOP-AV239MT:2500:e522ed75537d42d395274e31cf9ece9f"
       },
       "last_dispatch": {
-        "scheduled_at": "2026-11-22T22:00:00+03:30",
-        "dispatched_at": "2026-11-22T22:06:08.002477+03:30",
-        "lateness_seconds": 368.0,
+        "scheduled_at": "2026-11-24T22:00:00+03:30",
+        "dispatched_at": "2026-11-24T22:36:14.753674+03:30",
+        "lateness_seconds": 2174.8,
         "kind": "late"
       }
     }
   ],
-  "updated_at": "2026-11-22T22:06:08.562742+03:30"
+  "updated_at": "2026-11-24T22:36:14.935177+03:30"
 }
