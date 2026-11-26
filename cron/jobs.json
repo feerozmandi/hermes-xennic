@@ -23,15 +23,15 @@
       "schedule_display": "0 22 * * *",
       "repeat": {
         "times": null,
-        "completed": 39
+        "completed": 40
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-17T17:09:52.998396+03:30",
-      "next_run_at": "2026-11-26T22:00:00+03:30",
-      "last_run_at": "2026-11-24T22:37:25.211058+03:30",
+      "next_run_at": "2026-11-27T22:00:00+03:30",
+      "last_run_at": "2026-11-25T22:00:53.226759+03:30",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -42,16 +42,16 @@
       "enabled_toolsets": null,
       "workdir": null,
       "fire_claim": {
-        "at": "2026-11-25T22:00:09.497346+03:30",
-        "by": "DESKTOP-AV239MT:2500:c52b00f3dd2f4231a85a6e14f23c38a6"
+        "at": "2026-11-26T22:05:30.216910+03:30",
+        "by": "DESKTOP-AV239MT:2500:42bbdbbf854e48e091d59fb3dcb12a92"
       },
       "last_dispatch": {
-        "scheduled_at": "2026-11-25T22:00:00+03:30",
-        "dispatched_at": "2026-11-25T22:00:09.338259+03:30",
-        "lateness_seconds": 9.3,
+        "scheduled_at": "2026-11-26T22:00:00+03:30",
+        "dispatched_at": "2026-11-26T22:00:46.773280+03:30",
+        "lateness_seconds": 46.8,
         "kind": "on_time"
       }
     }
   ],
-  "updated_at": "2026-11-25T22:00:09.499347+03:30"
+  "updated_at": "2026-11-26T22:05:30.221949+03:30"
 }
